@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left-box flex">
+            <div class="home p1 bg-gray radius">
+                <div class="logocross flex">
+                    <img class="invert img" src="logo.svg" alt="logo">
+                    <img class="invert cross" src="cancel.svg" alt="cancel">
+                </div>
+                <ul>
+                    <li class="flex"><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li class="flex"><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library radius bg-gray p1">
+                <div class="youlib flex">
+                    <img class="invert" src="library.svg" alt="lib">
+                    <h4>Your Library</h4>
+                </div>
+                <div class="songlist ">
+                    <ul>
+                        <!-- <li class="lisst flex">
+                            <div class="conin flex" >
+                                <img class="invert" src="music.svg" alt="">
+                                <div class="info">
+                                    <div>SongName</div>
+                                    <div>SongName</div>
+                                </div>
+                            </div>
+                            <div class="playnow flex">
+                                <div>Play now</div>
+                                <img class="invert" src="play.svg" alt="">
+                            </div>
+                        </li> -->
+                    </ul>
+                 </div>
+                <div class="footer flex">
+                    <div><a href="https://www.spotify.com/jp/legal/"><span>Legal</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/privacy/"><span>Privacy Center</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    </div>
+                    <div><a href="https://www.spotify.com/jp/legal/cookies-policy/"><span>Cookies</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/legal/privacy-policy/#s3"><span>About Ads</span></a></div>
+                    <div><a href="https://www.spotify.com/jp/accessibility/"><span>Accessibility</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="right-box bg-gray radius"> 
+            <header class="flex align">
+                <div class="lrsvgs ">
+                    <img src="hamburger.svg" alt="ham" class="ham invert">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#ffffff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons flex">
+                    <button class="signbtn">Sign up</button>
+                    <button class="logbtn">Log in</button>
+                </div>
+            </header>
+            <div class="spotifyPlaylist flex">
+                <h2>Spotify Playlists</h2>
+                <div class="cardContainer flex">
+                    <div class="card">
+                        <div class="playb">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="/icons/play-circle-stroke-rounded.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                                <circle cx="12" cy="12" r="10" 
+                                fill="rgb(4, 249, 4)"  stroke-width="1.5"></circle>
+                                <path d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"  
+                                fill="#000000" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                        </div>
+                        <img src="	https://i.scdn.co/image/ab67706f0000000254473de875fea0fd19d39037" alt="image">
+                        <h5>lofi beats</h5>
+                        <p>chill beats, lofi vibes,new tracks every...</p>
+                    </div>
+                    <div class="card">
+                        <div class="playb">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="/icons/play-circle-stroke-rounded.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                                <circle cx="12" cy="12" r="10" 
+                                fill="rgb(4, 249, 4)"  stroke-width="1.5"></circle>
+                                <path d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"  
+                                fill="#000000" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                        </div>
+                        <img src="	https://i.scdn.co/image/ab67706f00000002b81fa84dfd95340eeeaacd04" alt="image">
+                        <h5>Today's Top Hits</h5>
+                        <p>Ariana Grande is on top of the Hottest 50!</p>
+                    </div>
+                    <div class="card">
+                        <div class="playb">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="/icons/play-circle-stroke-rounded.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                                <circle cx="12" cy="12" r="10" 
+                                fill="rgb(4, 249, 4)"  stroke-width="1.5"></circle>
+                                <path d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"  
+                                fill="#000000" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                        </div>
+                        <img src="	https://i.scdn.co/image/ab67706f00000002dec17246891b5b4eb97bdb0d" alt="image">
+                        <h5>Chillout Lounge</h5>
+                        <p>Just lean back and enjoy relaxed beats.</p>
+                    </div>
+                    <div class="card">
+                        <div class="playb">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="/icons/play-circle-stroke-rounded.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                                <circle cx="12" cy="12" r="10" 
+                                fill="rgb(4, 249, 4)"  stroke-width="1.5"></circle>
+                                <path d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"  
+                                fill="#000000" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                        </div>
+                        <img src="	https://i.scdn.co/image/ab67706f00000002d771dc645afe9b87978b1d3e" alt="image">
+                        <h5>All Out 2020s</h5>
+                        <p>The biggest songs of the 2020s</p>
+                    </div>
+
+
+                    <div class="card">
+                        <div class="playb">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="/icons/play-circle-stroke-rounded.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                                <circle cx="12" cy="12" r="10" 
+                                fill="rgb(4, 249, 4)"  stroke-width="1.5"></circle>
+                                <path d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"  
+                                fill="#000000" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                        </div>
+                        <img src="	https://i.scdn.co/image/ab67706f00000002d771dc645afe9b87978b1d3e" alt="image">
+                        <h5>All Out 2020s</h5>
+                        <p>The biggest songs of the 2020s</p>
+                    </div> <div class="card">
+                        <div class="playb">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" class="injected-svg" data-src="/icons/play-circle-stroke-rounded.svg" xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                                <circle cx="12" cy="12" r="10" 
+                                fill="rgb(4, 249, 4)"  stroke-width="1.5"></circle>
+                                <path d="M15.4531 12.3948C15.3016 13.0215 14.5857 13.4644 13.1539 14.3502C11.7697 15.2064 11.0777 15.6346 10.5199 15.4625C10.2893 15.3913 10.0793 15.2562 9.90982 15.07C9.5 14.6198 9.5 13.7465 9.5 12C9.5 10.2535 9.5 9.38018 9.90982 8.92995C10.0793 8.74381 10.2893 8.60868 10.5199 8.53753C11.0777 8.36544 11.7697 8.79357 13.1539 9.64983C14.5857 10.5356 15.3016 10.9785 15.4531 11.6052C15.5156 11.8639 15.5156 12.1361 15.4531 12.3948Z"  
+                                fill="#000000" stroke-width="1.5" stroke-linejoin="round"></path>
+                                </svg>
+                        </div>
+                        <img src="	https://i.scdn.co/image/ab67706f00000002d771dc645afe9b87978b1d3e" alt="image">
+                        <h5>All Out 2020s</h5>
+                        <p>The biggest songs of the 2020s</p>
+                    </div>
+                </div>
+            </div>
+            <div class="songsp">
+                <div class="title flex">
+                    <div class="songname"></div>
+                    <div class="songplay">
+                        <img id="previous" class="invert" src="previous.svg" alt="pre">
+                        <img id="play" class="invert" src="play.svg" alt="play">
+                        <img id="next" class="invert" src="next.svg" alt="nex">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+                <div class="seek">
+                    <div class="circle">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
